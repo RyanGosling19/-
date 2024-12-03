@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Магазин Гитар</title>
+    <meta name="description" content="Магазин Гитар предлагает широкий ассортимент классических, электрических и бас-гитар. Найдите идеальный инструмент для вашего музыкального стиля и начинайте творить!">
+    <meta name="keywords" content="Магазин Гитар, классическая гитара, электрогитара, бас-гитара">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+     <script>
+        function purchaseGuitar() {
+            alert('Поздравляем с покупкой гитары!');
+        }
+     </script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Магазин Гитар</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="current">Главная</a></li>
+                    <li><a href="cg.html">Классическая Гитара</a></li>
+                    <li><a href="eg.html">Электрогитара</a></li>
+                    <li><a href="bg.html">Бас-гитара</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section class="container">
+        <h2>Наша Коллекция</h2>
+        
+        <article>
+            <h3>Классическая Гитара</h3>
+            <img style="position: relative;width: 300px;height: 300px" src="pic/cg1.jpeg">
+            <p>Классическая гитара — струнный щипковый музыкальный инструмент. Основной представитель семейства гитар. В современном виде существует со второй половины XVIII века, используется как сольный, ансамблевый и аккомпанирующий инструмент. Гитара обладает большими художественно-исполнительскими возможностями и широким разнообразием тембров. Является одним из самых популярных музыкальных инструментов в мире.</p>
+            <a href="cg.html">Подробнее</a>
+            <button type="button" onclick="purchaseGuitar()">Купить</button>
+        </article>
+        
+        <article>
+            <h3>Электрогитара</h3>
+            <img style="position: relative;width: 300px;height: 300px" src="pic/eg1.jpeg">
+            <p>Электрогитара — разновидность гитары, имеющая электромагнитные звукосниматели, преобразующие колебания металлических струн в колебания электрического тока. Сигнал со звукоснимателей может быть обработан для получения различных звуковых эффектов и усилен — для воспроизведения через акустическую систему.</p>
+            <a href="eg.html">Подробнее</a>
+            <button type="button" onclick="purchaseGuitar()">Купить</button>
+        </article>
+        
+        <article>
+            <h3>Бас-гитара</h3>
+            <img style="position: relative;width: 300px;height: 300px" src="pic/bg1.jpeg">
+            <p>Бас-гитара — гитара, предназначенная для игры в басовом диапазоне. Помимо электрической бас-гитары существует также акустический вариант, встречающийся в музыке гораздо реже, но относящийся к другому классу инструментов (не является электрофоном).</p>
+            <a href="bg.html">Подробнее</a>
+            <button type="button" onclick="purchaseGuitar()">Купить</button>
+        </article>
+    </section>
+    <footer>
+        <div class="container">
+            <p><a href="index.html" class="current">Главная</a><br>Создатель: Андрей Алексеевич Д.</p>
+        </div>
+    </footer>
+</body>
+</html>
