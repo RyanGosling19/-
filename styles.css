@@ -1,6 +1,4 @@
-/* styles.css */
 
-/* Основые стили */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -9,7 +7,6 @@ body {
     background-color: #f4f4f4;
 }
 
-/* Стили хедера */
 header {
     background-color: #444444;
     color: white;
@@ -25,7 +22,6 @@ header {
     margin: auto;
 }
 
-/* Стили навигации */
 nav {
     width: 100%;
 }
@@ -46,7 +42,6 @@ nav a {
     text-decoration: none;
 }
 
-/* Основные стили секции */
 section.container {
     display: flex;
     flex-wrap: wrap;
@@ -62,7 +57,7 @@ article {
     border-radius: 5px;
     margin: 10px;
     padding: 15px;
-    width: 50%; /* Задаем ширину для статей */
+    width: 50%;
 }
 
 article img {
@@ -71,7 +66,6 @@ article img {
     margin-bottom: 10px;
 }
 
-/* Кнопки и ссылки */
 button {
     background-color: #27ae60;
     color: white;
@@ -103,6 +97,6 @@ footer {
     }
 
     article {
-        width: calc(100% - 40px); /* Полная ширина на мобильных устройствах */
+        width: calc(100% - 40px);
     }
 }
